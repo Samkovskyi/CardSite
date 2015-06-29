@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "CardSite"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-CardSite-f3b8a2a4-e1a1-41b1-9a22-831223a3ffd7;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
