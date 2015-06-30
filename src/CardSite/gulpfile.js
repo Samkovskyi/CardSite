@@ -1,4 +1,4 @@
-﻿/// <binding Clean='clean' />
+﻿/// <binding BeforeBuild='copy' Clean='clean' />
 
 var gulp = require("gulp"),
   rimraf = require("rimraf"),
@@ -21,8 +21,10 @@ gulp.task("copy", ["clean"], function () {
     "bootstrap-touch-carousel": "bootstrap-touch-carousel/dist/**/*.{js,css}",
     "hammer.js": "hammer.js/hammer*.{js,map}",
     "jquery": "jquery/jquery*.{js,map}",
+    "jquery-easing": "jquery-easing/jquery.easing*.{js,map}",
     "jquery-validation": "jquery-validation/jquery.validate.js",
-    "jquery-validation-unobtrusive": "jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    "jquery-validation-unobtrusive": "jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+    "font-awesome": "font-awesome/**/*.{js,map,css,ttf,svg,woff,eot}"
   }
 
   for (var destinationDir in bower) {

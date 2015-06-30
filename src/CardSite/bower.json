@@ -4,10 +4,12 @@
   "dependencies": {
     "angular": "^1.4.1",
     "bootstrap": "3.0.0",
-    "jquery": "1.10.2",
-    "jquery-validation": "1.11.1",
-    "jquery-validation-unobtrusive": "3.2.2",
+    "bootstrap-touch-carousel": "0.8.0",
+    "font-awesome": "^4.3.0",
     "hammer.js": "2.0.4",
-    "bootstrap-touch-carousel": "0.8.0"
+    "jquery": "1.10.2",
+    "jquery-easing": "*",
+    "jquery-validation": "1.11.1",
+    "jquery-validation-unobtrusive": "3.2.2"
   }
 }

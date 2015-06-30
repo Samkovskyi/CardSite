@@ -24,7 +24,8 @@
       "Microsoft.Framework.CodeGenerators.Mvc >= 1.0.0-beta4",
       "Microsoft.Framework.Logging >= 1.0.0-beta4",
       "Microsoft.Framework.Logging.Console >= 1.0.0-beta4",
-      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-beta4"
+      "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-beta4",
+      "FontAwesome >= 4.2.0"
     ],
     "DNX,Version=v4.5.1": [],
     "DNXCore,Version=v5.0": []
@@ -407,6 +408,37 @@
         "lib/dnxcore50/EntityFramework.SqlServer.Design.xml",
         "lib/net451/EntityFramework.SqlServer.Design.dll",
         "lib/net451/EntityFramework.SqlServer.Design.xml"
+      ]
+    },
+    "FontAwesome/4.2.0": {
+      "serviceable": false,
+      "sha": "Q7zY9YJV4k2DoJJyw/hxcdKqEKGMwn+woS/g50meo2Tw3DqTtBtlRnuDW70DItQTW33fh+urfGJe/39qXNQy/g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "FontAwesome.4.2.0.nupkg",
+        "FontAwesome.4.2.0.nupkg.sha512",
+        "FontAwesome.nuspec",
+        "Content/Content/font-awesome.css",
+        "Content/Content/font-awesome.min.css",
+        "Content/fonts/fontawesome-webfont.eot",
+        "Content/fonts/fontawesome-webfont.svg",
+        "Content/fonts/fontawesome-webfont.ttf",
+        "Content/fonts/fontawesome-webfont.woff",
+        "Content/fonts/FontAwesome.otf",
+        "tools/install.ps1"
       ]
     },
     "Ix-Async/1.2.3": {
